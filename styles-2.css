@@ -1,0 +1,40 @@
+p {
+    font-family: Lexend Deca, sans-serif;
+    color: #111;
+}
+
+h3 {
+    font-family: Zilla Slab, sans-serif;
+}
+
+body {
+    background-color: mediumaquamarine;
+}
+
+#red {
+    color: red;
+}
+
+#orange {
+    color: orange;
+}
+
+#yellow {
+    color: yellow;
+}
+
+#green {
+    color: green;
+}
+
+#blue {
+    color: blue;
+}
+
+#purple {
+    color: purple;
+}
+
+p.quote {
+    color: rebeccapurple;
+}
