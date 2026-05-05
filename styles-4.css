@@ -1,0 +1,53 @@
+body {
+    background-color: mediumaquamarine;
+}
+
+p {
+    font-family: Lexend Deca, sans-serif;
+}
+
+#twelve-px {
+    font-size: 12px;
+}
+
+#twenty-px {
+    font-size: 20px;
+}
+
+#fifty-percent {
+    font-size: 50%;
+}
+
+#one-hundred-fifty-percent {
+    font-size: 150%;
+}
+
+#three-quarters-em {
+    font-size: 0.75em;
+}
+
+#five-quarters-em {
+    font-size: 1.25em;
+}
+
+.font-size {
+    font-family: Zilla Slab, sans-serif;
+    font-weight: bold;
+}
+
+.font-weight-and-style {
+    font-family: Garamond, serif;
+    font-size: 1.25em;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+#italic {
+    font-style: italic;
+}
+
+#oblique {
+    font-style: oblique;
+}
