@@ -1,0 +1,41 @@
+body {
+    background-color: mediumaquamarine;
+}
+
+p {
+    font-family: Lexend Deca, sans-serif;
+}
+
+h2 {
+    font-family: Zilla Slab, sans-serif;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.left-aligned {
+    text-align: left;
+}
+
+.center-aligned {
+    text-align: center;
+}
+
+.right-aligned {
+    text-align: right;
+}
+
+.justified {
+    text-align: justify;
+}
+
+#text-top {
+    vertical-align: text-top;
+}
+
+#middle {
+    vertical-align: middle;
+}
+
+#text-bottom {
+    vertical-align: text-bottom;
+}
