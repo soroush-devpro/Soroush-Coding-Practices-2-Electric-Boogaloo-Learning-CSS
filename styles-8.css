@@ -1,0 +1,17 @@
+body {
+    background-color: mediumaquamarine;
+    line-height: 1.4em;
+}
+
+p {
+    font-family: Lexend Deca, sans-serif;
+}
+
+.indent {
+    text-indent: 2em;
+}
+
+h1 {
+    font-family: Zilla Slab, sans-serif;
+    text-shadow: 5px 5px 2.5px #7b7878;
+}
