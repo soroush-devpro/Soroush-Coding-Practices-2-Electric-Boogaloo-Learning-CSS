@@ -1,0 +1,44 @@
+body {
+    background-color: mediumaquamarine;
+    line-height: 1.4em;
+}
+
+p {
+    font-family: Lexend Deca, sans-serif;
+}
+
+li {
+    font-family: Zilla Slab, sans-serif;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.cat-ipsum::first-letter {
+    font-size: 150%;
+}
+
+.cat-ipsum::first-line {
+    font-weight: bold;
+}
+
+a:link {
+    color: deeppink;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: seagreen;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: darkcyan;
+}
+
+#ps {
+    font-style: italic;
+}
