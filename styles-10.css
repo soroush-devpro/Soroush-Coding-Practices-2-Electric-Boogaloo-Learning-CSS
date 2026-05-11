@@ -1,0 +1,31 @@
+body {
+    background-color: mediumaquamarine;
+    font-family: Lexend Deca, sans-serif;
+    line-height: 1.4em;
+}
+
+input[type="submit"], input[type="text"] {
+    font-family: Zilla Slab, sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    background-color: darkcyan;
+    color: white;
+}
+
+::placeholder {
+    color: white;
+}
+
+input[type="submit"]:hover {
+    background-color: seagreen;
+}
+
+input[type="submit"]:focus {
+    background-color: aquamarine;
+    color: black;
+}
+
+input[type="submit"]:active {
+    background-color: #665544;
+    color: white;
+}
