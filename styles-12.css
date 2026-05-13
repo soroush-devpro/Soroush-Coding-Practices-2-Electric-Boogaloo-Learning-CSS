@@ -1,0 +1,26 @@
+body {
+    background-color: #1D5D49;
+    line-height: 1.5em;
+    font-family: Lexend Deca, sans-serif;
+}
+
+.first-paragraph {
+    background-color: mediumaquamarine;
+    border: 0.25em solid seagreen;
+    margin: 1em;
+    padding: 0.5em;
+}
+
+.second-paragraph {
+    background-color: mediumaquamarine;
+    border: 0.25em solid seagreen;
+    margin: 1em;
+    padding: 0.5em;
+}
+
+.third-paragraph {
+    background-color: mediumaquamarine;
+    border: 0.25em solid seagreen;
+    margin: 1em;
+    padding: 0.5em;
+}
