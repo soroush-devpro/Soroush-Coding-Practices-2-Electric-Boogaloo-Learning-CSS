@@ -1,0 +1,68 @@
+body {
+    background-color: #1D5D49;
+    line-height: 1.5em;
+}
+
+p, div.box {
+    font-family: Lexend Deca, sans-serif;
+    background-color: mediumaquamarine;
+    text-align: center;
+    max-width: 75%;
+    border: 0.25em solid seagreen;  
+    margin: 1em auto;
+    padding: 0.5em;
+    box-shadow: 5px 5px 5px 5px rgb(23, 71, 44);
+    border-radius: 1em;
+}
+
+h3, h4 {
+    font-family: Zilla Slab, sans-serif;
+    font-size: 125%;
+    font-weight: bold;
+}
+
+div.box {
+    text-align: left;
+    max-width: 65%;
+    padding: 1em;
+}
+
+#none {
+    list-style: none outside;
+}
+
+#disc {
+    list-style: disc outside;
+}
+
+#circle {
+    list-style: circle outside;
+}
+
+#square {
+    list-style: square outside;
+}
+
+.decimal {
+    list-style: decimal inside;
+}
+
+.decimal-leading-zero {
+    list-style: decimal-leading-zero inside;
+}
+
+.lower-alpha {
+    list-style: lower-alpha inside;
+}
+
+.upper-alpha {
+    list-style: upper-alpha inside;
+}
+
+.lower-roman {
+    list-style: lower-roman inside;
+}
+
+.upper-roman {
+    list-style: upper-roman inside;
+}
