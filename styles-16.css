@@ -1,0 +1,35 @@
+body {
+    background-color: #1D5D49;
+    font-family: Lexend Deca, sans-serif;
+    line-height: 1.5em;
+}
+
+p, table {
+    background-color: mediumaquamarine;
+    text-align: center;
+    max-width: 75%;
+    border: 0.25em solid seagreen;
+    margin: 1em auto;
+    padding: 0.5em;
+    box-shadow: 5px 5px 5px 5px rgb(23, 71, 44);
+    border-radius: 1em;
+}
+
+table {
+    max-width: 70%;
+    empty-cells: show;
+    text-align: left;
+    border-spacing: 0.5em;
+}
+
+th, td {
+    border: 0.15em solid seagreen;
+    border-collapse: separate;
+    padding: 0.5em;
+    border-radius: 0.5em;
+}
+
+th {
+    font-family: Zilla Slab, sans-serif;
+    font-weight: bold;
+}
