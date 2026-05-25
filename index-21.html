@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Day 21 &mdash; Floats!</title>
+        <meta name="description"
+            content="Day 21 of Soroush Coding Practices 2: Electric Boogaloo, Learning CSS" />
+        <meta name="keywords"
+            content="Day 21, extravaganza, practices, coding practices, css, layout, float, floats, normal flow, relative positioning, absolute positioning, fixed positioning, floating elements, floating, normal, relative, absolute, fixed, position, relative position, absolute position, fixed position, flow, z-index, z index, static, position:static, position:relative, position:absolute, position:fixed, position:static;, position:relative;, position:absolute;, position:fixed;, position: static, position: relative, position: absolute, position: fixed, position: static;, position: relative;, position: absolute;, position: fixed;," />
+        <meta name="robots"
+            content="noindex">
+        <meta http-equiv="author"
+            content="Soroush HD" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+        <link href="styles-21.css" type="text/css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Day 21: Floats!</h1>
+        <div id="main-content">
+            <div id="static">
+                <p class="static">Hello everyone, and welcome to Day 21 of these coding practices! Today, we'll be diving into the wonderful world of floats: using normal flow (otherwise known as static positioning), relative positioning, absolute positioning, fixed positioning, z-indexes, and floating elements! We are using our older webpage layout (without centered boxes with a cool drop shadow) so we can demonstrate floats more clearly, and I have placed &lt;div&gt; containers around each section since the absolute positioning section requires a container, so I figured I'd give them all &lt;div&gt; containers for consistency (I have also wrapped the entire main text other than the fixed-positioned header in a &lt;div&gt; container so I could shift the main teext down by setting its top margin to 7em with the margin-top property, so that way, the header doesn't overlap with the text at the very top of the page). Through the autofill options of Visual Studio Code, I also discovered the font-weight property has a normal value, which I am using in the explanations inside the headers introducing each section to ease the strain on the eyes that would come with all of it being bold. Through Google (as in, outside of the HTML and CSS book by Jon Duckett that I'm using to learn HTML and CSS), I also learned the :not pseudo-class, allowing me to make all &lt;div&gt; elements other than the one containing the float section (with an id of float) have a width of 75%. While back in the day, floats were used to make columns/position things side-by-side and things like that, that is now outdated, thanks to Flexbox. I am using the HTML and CSS book by Jon Duckett to learn HTML and CSS, which was published before Flexbox was released, so I will be using Flexbox Froggy to learn! Thus, we will be skipping the entire rest of the "Layout" chapter of the HTML and CSS book by Jon Duckett, and instead using some of what I've learned from Flexbox Froggy to make some basic multi-column layouts. The heading of this page uses and illustrates fixed positioning and the z-index property, and this paragraph demonstrates normal flow (I believe another name for it is static positioning)!</p>
+                <p class="static">I have also really been loving Beluga's videos lately! I have been following his channel since his first or second Discord video nearly 5 years ago, and have been loving his content since. Yesterday, his Discord server (BeluGANG) turned 5 years old, and he hosted a Q&A, and I actually got to speak with him! I feel so blessed and excited that I got to speak with my favorite YouTuber (or, if not that, definitely among my favorite YouTubers). So, I will be using cat ipsum instead of lorem ipsum in his honor, and in our example of floating elements later down this page, I will be including a quote from one of his Kahoot videos! While I link the direct video in the quote, I actually (re?)discovered that quote thanks to his newest upload at the time of writing this, which is a compilation of his Kahoot videos, his first compilation ever to my knowledge (I could be wrong); <a id="first-link" href="https://www.youtube.com/watch?v=Le-k5c96kLg&t=2493s">this link</a> leads to the exact moment in that compilation which I saw the quote in, 41 minutes and 33 seconds in. (Since cat ipsum generates some long paragraphs, I have broken the first paragraph up into three paragraphs for each of the examples!)</p>
+                <p class="static">Anyways, let's dive right into it!</p>
+            </div>
+            <br />
+            <div id="relative">
+                <h3>Relative Positioning: <span class="explanation">Moving an element up, down, left, or right away from normal flow.</span></h3>
+                    <p>Cat ipsum dolor sit amet, leave dead animals as gifts yet lick the plastic bag. Flee in terror at cucumber discovered on floor fish i must find my red catnip fishy fish good morning sunshine. Be a nyan cat, feel great about it, be annoying 24/7 poop rainbows in litter box all day massacre a bird in the living room and then look like the cutest and most innocent animal on the planet but fight an alligator and win and kitty scratches couch bad kitty.</p>
+                    <p id="the-odd-one-out-woah-theodd1sout-reference">Is good you understand your place in my world hopped up on catnip, or iâ€™m so hungry iâ€™m so hungry but ew not for that pet me pet me pet me pet me, bite, scratch, why are you petting me love me! make meme, make cute face. Car rides are evil. Cat gets stuck in tree firefighters try to get cat down firefighters get stuck in tree cat eats firefighters' slippers whatever.</p>
+                    <p>Meow meow you are my owner so here is a dead bird kitty kitty. Claw at curtains stretch and yawn nibble on tuna ignore human bite human hand ears back wide eyed yet lick yarn hanging out of own butt, stare at imaginary bug don't nosh on the birds.</p>
+            </div>
+            <br />
+            <div id="absolute">
+                <h3>Absolute Positioning: <span class="explanation">Moving and taking an element out of normal flow, causing it to no longer affect the position of other elements in the page (the other elements act like it isn't there). It is placed in relation to its containing element. Fixed positioning (which is what the header of this page uses) is a type of absolute positioning that is based on the browser window, not the containing element.</span></h3>
+                    <h4 id="absolutely">Cat.</h4>
+                    <p>Cat ipsum dolor sit amet, leave dead animals as gifts yet lick the plastic bag. Flee in terror at cucumber discovered on floor fish i must find my red catnip fishy fish good morning sunshine. Be a nyan cat, feel great about it, be annoying 24/7 poop rainbows in litter box all day massacre a bird in the living room and then look like the cutest and most innocent animal on the planet but fight an alligator and win and kitty scratches couch bad kitty.</p>
+                    <p>Is good you understand your place in my world hopped up on catnip, or iâ€™m so hungry iâ€™m so hungry but ew not for that pet me pet me pet me pet me, bite, scratch, why are you petting me love me! make meme, make cute face. Car rides are evil. Cat gets stuck in tree firefighters try to get cat down firefighters get stuck in tree cat eats firefighters' slippers whatever.</p>
+                    <p>Meow meow you are my owner so here is a dead bird kitty kitty. Claw at curtains stretch and yawn nibble on tuna ignore human bite human hand ears back wide eyed yet lick yarn hanging out of own butt, stare at imaginary bug don't nosh on the birds.</p>
+            </div>
+            <br />
+            <div id="float">
+                <h3>Floating Elements: <span class="explanation">Taking an element in normal flow and moving it as far to the left or right of the containing element as possible.</span></h3>
+                    <blockquote cite="https://www.youtube.com/watch?v=qrMb41bqA-8&t=178s">"you can never change someone's opinion about you, but you can prevent their opinion from changing you" &mdash; Beluga in <a href="https://www.youtube.com/watch?v=qrMb41bqA-8&t=178s">Kahoot IQ Test (99.9% fail)" at 2 minutes and 58 seconds</a>; July 7, 2022</blockquote>
+                    <p>Cat ipsum dolor sit amet, leave dead animals as gifts yet lick the plastic bag. Flee in terror at cucumber discovered on floor fish i must find my red catnip fishy fish good morning sunshine. Be a nyan cat, feel great about it, be annoying 24/7 poop rainbows in litter box all day massacre a bird in the living room and then look like the cutest and most innocent animal on the planet but fight an alligator and win and kitty scratches couch bad kitty.</p>
+                    <p>Is good you understand your place in my world hopped up on catnip, or iâ€™m so hungry iâ€™m so hungry but ew not for that pet me pet me pet me pet me, bite, scratch, why are you petting me love me! make meme, make cute face. Car rides are evil. Cat gets stuck in tree firefighters try to get cat down firefighters get stuck in tree cat eats firefighters' slippers whatever.</p>
+                    <p>Meow meow you are my owner so here is a dead bird kitty kitty. Claw at curtains stretch and yawn nibble on tuna ignore human bite human hand ears back wide eyed yet lick yarn hanging out of own butt, stare at imaginary bug don't nosh on the birds.</p>
+            </div>
+            <br />
+            <p>Anyways, thank you all so much for joining me on Day 21 of this coding extravaganza. I have checked, and this coding practice was our biggest yet; back in our HTML practices last month, our biggest was Day 25, the cumulative forms review (also, funnily enough, exactly 1 month ago, since it was on April 25th and today is May 25th), which was 6,320 characters; this practice was 10,583 characters! This one was one to remember for sure! Anyway, I'll see you all tomorrow! Goodbye! :D</p>
+        </div><!-- end of main content -->
+    </body>
+</html>
