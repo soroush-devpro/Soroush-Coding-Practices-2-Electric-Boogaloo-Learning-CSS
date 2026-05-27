@@ -1,0 +1,19 @@
+body {
+    background-color: #1d5d49;
+    font-family: Lexend Deca, sans-serif;
+    line-height: 1.5em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+p {
+    background-color: mediumaquamarine;
+    text-align: center;
+    width: 27%;
+    border: 0.25em solid seagreen;
+    margin: 1em;
+    padding: 0.5em;
+    box-shadow: 5px 5px 5px 5px rgb(23, 71, 44);
+    border-radius: 1em;
+}
