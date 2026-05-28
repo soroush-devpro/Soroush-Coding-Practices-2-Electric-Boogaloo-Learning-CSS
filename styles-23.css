@@ -1,0 +1,62 @@
+body {
+    background-color: #1d5d49;
+    line-height: 1.5em;
+}
+
+p {
+    background-color: mediumaquamarine;
+    font-family: Lexend Deca, sans-serif;
+    text-align: center;
+    width: 75%;
+    border: 0.25em solid seagreen;
+    margin: 1em auto;
+    padding: 0.5em;
+    box-shadow: 5px 5px 5px 5px rgb(23, 71, 44);
+    border-radius: 1em;
+}
+
+figure {
+    text-align: center;
+}
+
+img.center {
+    margin: 1em auto;
+}
+
+figcaption {
+    font-family: Zilla Slab, sans-serif;
+    font-size: 125%;
+    font-weight: bold;
+}
+
+img.align-left {
+    float: left;
+    margin-right: 1em;
+}
+
+img.align-right {
+    float: right;
+    margin-left: 1em;
+}
+
+img.small {
+    width: 50px;
+    height: 50px;
+}
+
+img.medium {
+    width: 100px;
+    height: 100px;
+}
+
+img.large {
+    width: 400px;
+    height: 400px;
+}
+
+img {
+    border: 0.25em solid seagreen;
+    margin: 0.25em;
+    box-shadow: 5px 5px 5px 5px rgb(23, 71, 44);
+    border-radius: 1em;
+}
