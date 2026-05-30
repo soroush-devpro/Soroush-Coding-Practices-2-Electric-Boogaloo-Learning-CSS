@@ -1,0 +1,40 @@
+body {
+    background: #1d5d49;
+    line-height: 1.5em;
+}
+
+p {
+    background: mediumaquamarine;
+    font-family: Lexend Deca, sans-serif;
+    text-align: center;
+    width: 75%;
+    border: 0.25em solid seagreen;
+    margin: 1em auto;
+    padding: 0.5em;
+    box-shadow: 5px 5px 5px 5px rgb(23, 71, 44);
+    border-radius: 1em;
+}
+
+button {
+    background: url(cool-green-background.png);
+    color: white;
+    font-family: Zilla Slab, sans-serif;
+    font-size: 125%;
+    font-weight: bold;
+    text-align: center;
+    width: 75%;
+    border: 0.25em solid seagreen;
+    margin: 1em auto;
+    padding: 0.5em;
+    box-shadow: 5px 5px 5px 5px rgb(23, 71, 44);
+    border-radius: 1em;
+    display: block;
+}
+
+button:hover {
+    background-position: 0.5em 0em;
+}
+
+button:active {
+    background-position: 1em 0em;
+}
