@@ -1,0 +1,77 @@
+body {
+    background: #1d5d49;
+    font-family: Lexend Deca, sans-serif;
+    line-height: 1.5em;
+}
+
+p {
+    background: mediumaquamarine;
+    text-align: center;
+    width: 75%;
+    border: 0.25em solid seagreen;
+    margin: 1em auto;
+    padding: 0.5em;
+    box-shadow: 5px 5px 5px 5px rgb(23, 71, 44);
+    border-radius: 1em;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+.gradient {
+    flex: 0 0 27%;
+    box-sizing: border-box;
+    width: 27%;
+    height: 6em;
+    border: 0.25em solid darkseagreen;
+    margin: 1em 0em;
+    padding: 0.5em;
+    box-shadow: 5px 5px 5px 5px rgb(23, 71, 44);
+    border-radius: 1em;
+}
+
+#top-bottom {
+    background: linear-gradient(to bottom, dodgerblue, seagreen);
+}
+
+#bottom-top {
+    background: linear-gradient(to top, dodgerblue, seagreen);
+}
+
+#left-right {
+    background: linear-gradient(to right, dodgerblue, seagreen);
+}
+
+#right-left {
+    background: linear-gradient(to left, dodgerblue, seagreen);
+}
+
+#top-left-to-bottom-right {
+    background: linear-gradient(to bottom right, dodgerblue, seagreen);
+}
+
+#forty-five-deg {
+    background: linear-gradient(45deg, dodgerblue, seagreen); 
+}
+
+#tricolor-multiple-stops {
+    background: linear-gradient(to right, dodgerblue, rebeccapurple, seagreen);
+}
+
+#rainbow {
+    width: 75%;
+    flex: 0 0 100%;
+    background: linear-gradient(to right, firebrick, orange, yellow, lime, dodgerblue, midnightblue, purple, deeppink);
+}
+
+#transparency-gradient {
+    background: linear-gradient(to right, rgba(30, 144, 255, 0), rgba(30, 144, 255, 1));
+}
+
+#repeating-linear-gradient {
+    background: repeating-linear-gradient(to right, dodgerblue 15%, seagreen 30%);
+}
