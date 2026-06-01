@@ -1,0 +1,91 @@
+body {
+    background: #1d5d49;
+    font-family: Lexend Deca, sans-serif;
+    line-height: 1.5em;
+}
+
+p {
+    background: mediumaquamarine;
+    text-align: center;
+    width: 75%;
+    border: 0.25em solid seagreen;
+    margin: 1em auto;
+    padding: 0.5em;
+    box-shadow: 5px 5px 5px 5px rgb(23, 71, 44);
+    border-radius: 1em;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+.gradient {
+    flex: 0 0 27%;
+    box-sizing: border-box;
+    width: 27%; /* Today's also day 27, which makes width: 27%; even more special! */
+    height: 10em;
+    border: 0.25em solid darkseagreen;
+    margin: 1em 0em;
+    padding: 0.5em;
+    box-shadow: 5px 5px 5px 5px rgb(23, 71, 44);
+    border-radius: 1em;
+}
+
+#size {
+    flex: 0 0 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.size-gradient {
+    flex: 0 0 20%;
+    box-sizing: border-box;
+    width: 20%;
+    height: 10em;
+    border: 0.25em solid darkseagreen;
+    margin: 1em 0em;
+    padding: 0.5em;
+    box-shadow: 5px 5px 5px 5px rgb(23, 71, 44);
+    border-radius: 1em;
+}
+
+#evenly-spaced {
+    background: radial-gradient(dodgerblue, seagreen);
+}
+
+#differently-spaced {
+    background: radial-gradient(dodgerblue 10%, seagreen 80%);
+}
+
+#ellipse {
+    background: radial-gradient(ellipse, dodgerblue, seagreen);
+}
+
+#circle {
+    background: radial-gradient(circle, dodgerblue, seagreen);
+}
+/* The center point of all of the radial gradients below is 27% 27% to honor that today is Day 27! */
+#closest-side {
+    background: radial-gradient(closest-side at 27% 27%, dodgerblue, seagreen);
+}
+
+#farthest-side {
+    background: radial-gradient(farthest-side at 27% 27%, dodgerblue, seagreen);
+}
+
+#closest-corner {
+    background: radial-gradient(closest-corner at 27% 27%, dodgerblue, seagreen);
+}
+
+#farthest-corner {
+    background: radial-gradient(farthest-corner at 27% 27%, dodgerblue, seagreen);
+}
+
+#repeating-radial-gradient {
+    background: repeating-radial-gradient(dodgerblue, rebeccapurple 15%, seagreen 50%);
+}
+
+/* I love the number 27 :D */
