@@ -1,0 +1,81 @@
+body {
+    background: #1d5d49;
+    font-family: Lexend Deca, sans-serif;
+    line-height: 1.5em;
+    box-sizing: border-box;
+}
+
+p {
+    background: mediumaquamarine;
+    text-align: center;
+    width: 75%;
+    border: 0.25em solid seagreen;
+    margin: 1em auto;
+    padding: 0.5em;
+    box-shadow: 5px 5px 5px 5px rgb(23, 71, 44);
+    border-radius: 1em;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}
+
+.gradient {
+    width: 27%;
+    height: 10em;
+    border: 0.25em solid darkseagreen;
+    margin: 1em 0em;
+    padding: 0.5em;
+    box-shadow: 5px 5px 5px 5px rgb(23, 71, 44);
+    border-radius: 1em;
+}
+
+#three-colors {
+    background: conic-gradient(red, yellow, blue);
+}
+
+#five-colors {
+    background: conic-gradient(red, yellow, green, blue, black);
+}
+
+#three-colors-and-degrees {
+    background: conic-gradient(red 45deg, yellow 90deg, blue 210deg);
+}
+
+#pie-chart-smooth {
+    background: conic-gradient(red, yellow, green, blue, black);
+    border-radius: 50%;
+}
+
+#pie-chart-with-defined-color-starts-and-color-stops {
+    background: conic-gradient(red 0deg, red 72deg, yellow 72deg, yellow 144deg, green 144deg, green 216deg, blue 216deg, blue 288deg, black 288deg);
+    border-radius: 50%;
+}
+
+#conic-gradient-with-specified-from-angle {
+    background: conic-gradient(from 90deg, red, yellow, blue);
+}
+
+#conic-gradient-with-specified-center-position {
+    background: conic-gradient(at 27% 27%, red, yellow, blue);
+}
+
+#repeating-conic-gradient {
+    background: repeating-conic-gradient(red 10%, yellow 20%, blue 30%);
+}
+
+#repeating-conic-gradient-with-defined-color-starts-and-color-stops {
+    background: repeating-conic-gradient(red 0deg 10deg, yellow 10deg 20deg, blue 20deg 30deg);
+}
+
+.circle {
+    width: 10em;
+}
+
+#middle-row {
+    flex: 0 0 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
