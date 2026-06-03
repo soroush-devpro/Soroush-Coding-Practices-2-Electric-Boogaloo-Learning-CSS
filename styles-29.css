@@ -1,0 +1,45 @@
+body {
+    background: #1d5d49;
+    font-family: Lexend Deca, sans-serif;
+    line-height: 1.5em;
+}
+
+p, header, footer {
+    background: mediumaquamarine;
+    text-align: center;
+    width: 75%;
+    border: 0.25em solid seagreen;
+    margin: 1em auto;
+    padding: 0.5em;
+    box-shadow: 0.3em 0.3em 0.3em 0.3em rgb(23, 71, 44);
+    border-radius: 1em;
+}
+
+header, footer {
+    background: mediumaquamarine;
+    font-family: Zilla Slab, sans-serif;
+    font-size: 125%;
+    font-weight: bold;
+    width: 95%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    font-size: 1.5em;
+    color: black;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 1.5em;
+}
