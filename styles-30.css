@@ -1,0 +1,39 @@
+body {
+    background: #1d5d49;
+    font-family: Lexend Deca, sans-serif;
+    line-height: 1.5em;
+    box-sizing: border-box;
+}
+
+p {
+    background: mediumaquamarine;
+    text-align: center;
+    width: 75%;
+    border: 0.25em solid seagreen;
+    margin: 1em auto;
+    padding: 0.5em;
+    box-shadow: 0.3em 0.3em 0.3em 0.3em rgb(23, 71, 44);
+    border-radius: 1em;
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 95%;
+    border: 0.25em solid seagreen;
+    margin: 1em auto;
+    padding: 0.5em;
+    border-radius: 1em;
+}
+
+article, aside {
+    background: mediumaquamarine;
+    text-align: center;
+    border: 0.25em solid seagreen;
+    margin: 1em;
+    padding: 0.5em;
+    width: 25%;
+    box-shadow: 0.3em 0.3em 0.3em 0.3em rgb(23, 71, 44);
+    border-radius: 1em;
+}
