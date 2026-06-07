@@ -1,0 +1,81 @@
+body {
+    background: #1d5d49;
+    font-family: Lexend Deca, sans-serif;
+    line-height: 1.5em;
+    box-sizing: border-box;
+}
+
+p {
+    background: mediumaquamarine;
+    text-align: center;
+    width: 75%;
+    border: 0.25em solid seagreen;
+    margin: 1em auto;
+    padding: 0.5em;
+    box-shadow: 0.3em 0.3em 0.3em 0.3em rgb(23, 71, 44);
+    border-radius: 1em;
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 95%;
+    border: 0.25em solid seagreen;
+    margin: 1em auto;
+    padding: 0.5em;
+    border-radius: 1em;
+}
+
+hgroup {
+    font-family: Zilla Slab, sans-serif;
+    font-size: 125%;
+    font-weight: bold;
+}
+
+article, aside {
+    background: mediumaquamarine;
+    text-align: center;
+    flex: 0 0 33%;
+    border: 0.25em solid seagreen;
+    margin: 1em;
+    padding: 0.5em;
+    box-shadow: 0.3em 0.3em 0.3em 0.3em rgb(23, 71, 44);
+    border-radius: 1em;
+}
+
+article>p {
+    box-shadow: 0.25em 0.25em 0.25em 0.25em #337f64;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+img {
+    width: 25%;
+    height: 25%;
+    border: 0.25em solid seagreen;
+    margin: 1em auto;
+    box-shadow: 0.2em 0.2em 0.2em 0.2em #337f64;
+    border-radius: 1em;
+}
+
+header, footer {
+    background: mediumaquamarine;
+    font-family: Zilla Slab, sans-serif;
+    font-size: 150%;
+    font-weight: bold;
+    text-align: center;
+    width: 75%;
+    border: 0.25em solid seagreen;
+    margin: 1em auto;
+    padding: 0.5em;
+    box-shadow: 0.3em 0.3em 0.3em 0.3em rgb(23, 71, 44);
+    border-radius: 1em;
+}
+
+footer {
+    font-size: 125%;
+}
